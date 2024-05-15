@@ -23,7 +23,7 @@ main()
 	i=principle*rate*time;
 	simpleinterest=i/h;
 
-	pf("the simple interest will be : %f",simpleinterest);
+	pf("the simple interest will be : %.2f",simpleinterest);
 
 
 
