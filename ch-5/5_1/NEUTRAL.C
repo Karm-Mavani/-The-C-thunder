@@ -14,16 +14,19 @@ main()
 	printf("Enter the value of A :");
 	sf("%d",&a);
 
-	pf("Enter the value of B :");
-	sf("%d",&b);
+	pf("\n");
 
-	if(a>b)
+	if(a>0)
 	{
-	 pf("The minimum number is : %d ",b);
+	 pf("This Number is positive ");
+	}
+	else if(a<0)
+	{
+	 pf("This Number is Negative");
 	}
 	else
 	{
-	 pf("The minimum number is : %d",a);
+	 pf("This Number is Nuetral");
 	}
 
 
