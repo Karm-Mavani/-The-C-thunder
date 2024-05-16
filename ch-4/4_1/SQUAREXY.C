@@ -6,7 +6,7 @@
 
 main()
 {
-	int a,b,c;
+	int a,b,ans;
 
 	clrscr();
 
@@ -16,20 +16,10 @@ main()
 	pf("Enter the value of B :");
 	sf("%d",&b);
 
-	pf("\nBefore Swapping\n\n");
+	ans=(a*a)+(2*a*b)+(b*b);
 
-	pf("A\t:%d\n",a);
-	pf("B\t:%d",b);
-
-	c=a;
-	a=b;
-	b=c;
-
-	pf("\n\nAfter Swapping\n\n");
-
-	pf("A\t:%d\n",a);
-	pf("B\t:%d",b);
-
+	pf("\n");
+	pf("(A+B)^2 = %d",ans);
 
 	getch();
 
