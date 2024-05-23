@@ -10,7 +10,7 @@ main()
 
 	clrscr();
 
-	pf("\nEnter ending no. : ");
+	pf("\nEnter palce no. in series : ");
 	sf("%d",&d);
 	pf(" %d  %d ",a,b);
 
