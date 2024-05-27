@@ -1,0 +1,266 @@
+#include<stdio.h>
+#include<conio.h>
+#define pf printf
+#define sf scanf
+
+main()
+{
+	int a,d,g,h,i;
+	char b='c',e='f';
+	clrscr();
+
+	pf("\033[31m\n");
+	pf("\n          \t\t **WELCOME TO SHREE KRISHNA HOTEL**\n\n");
+	//for color	pf("\033[33;44myellow on blue\n");
+	pf("\033[0m\n");
+
+	pf("\nEnter 1 for AC ROOM");
+	pf("\nEnter 2 for NON-AC ROOM\n");
+	pf("\nEnter any no. as your choice : ");
+	sf("%d",&a);
+//1
+switch(a)
+{
+	case 1:
+	       pf("\n\nYour choice is AC room....");
+	       getch();
+	       clrscr();
+	       pf("\033[33;44m");
+	       pf("\n\nin AC room....");
+	       pf("\033[0m");
+	       pf("\nEnter A for 4-person room\n");
+	       pf("Enter B for 2-person room\n");
+	       pf("\nEnter any character from This List : ");
+	       fflush(stdin);
+	       sf("%c",&b);
+
+  //2
+  switch(b)
+  {
+		 case 'a':
+		 case 'A':
+		       clrscr();
+		       pf("\n\nEnter 0 for ground floor room\n");
+		       pf("Enter 1 for 1st floor room\n");
+		       pf("Enter 2 for 2nd floor room\n");
+		       pf("Enter 3 for 3rd floor room\n");
+		       pf("Enter 4 for top floor room\n");
+		       pf("\nChoose the floor no. : ");
+		       sf("%d",&d);
+    //3
+    switch(d)
+    {
+		  case 0:
+			     clrscr();
+			     pf("\nYou have booked room at groud floor");
+			     pf("\nYour charges will be 2500\\-only ");
+			     break;
+		  case 1:
+			     clrscr();
+			     pf("\nYou have booked room at 1st floor");
+			     pf("\nYour charges will be 3000\\-only ");
+			     break;
+		  case 2:
+			     clrscr();
+			     pf("\nYou have booked room at 2nd floor");
+			     pf("\nYour charges will be 3500\\-only ");
+			     break;
+		  case 3:
+			     clrscr();
+			     pf("\nYou have booked room at 3rd floor");
+			     pf("\nYour charges will be 4000\\-only ");
+			     break;
+		  case 4:
+			     clrscr();
+			     pf("\nYou have booked room at top floor");
+			     pf("\nYour charges will be 5000\\-only ");
+			     break;
+		 default:
+			     pf("your choice is invalid.....");
+    //3
+    }
+    break;
+
+		  case 'b':
+		  case 'B':
+		       clrscr();
+		       pf("\n\nEnter 0 for ground floor room\n");
+		       pf("Enter 1 for 1st floor room\n");
+		       pf("Enter 2 for 2nd floor room\n");
+		       pf("Enter 3 for 3rd floor room\n");
+		       pf("Enter 4 for top floor room\n");
+		       pf("\nChoose the floor no. : ");
+		       sf("%d",&g);
+    //4
+    switch(g)
+    {
+		  case 0:
+			     clrscr();
+			     pf("\nYou have booked room at groud floor");
+			     pf("\nYour charges will be 2500\\-only ");
+			     break;
+		  case 1:
+			     clrscr();
+			     pf("\nYou have booked room at 1st floor");
+			     pf("\nYour charges will be 3000\\-only ");
+			     break;
+		  case 2:
+			     clrscr();
+			     pf("\nYou have booked room at 2nd floor");
+			     pf("\nYour charges will be 3500\\-only ");
+			     break;
+		  case 3:
+			     clrscr();
+			     pf("\nYou have booked room at 3rd floor");
+			     pf("\nYour charges will be 4000\\-only ");
+			     break;
+		  case 4:
+			     clrscr();
+			     pf("\nYou have booked room at top floor");
+			     pf("\nYour charges will be 5000\\-only ");
+			     break;
+		 default:
+		 clrscr();
+			     pf("your choice is invalid.....");
+    }//4
+     break;
+		default:
+			     clrscr();
+			     pf("Invalid choice.......");
+   //2
+   }
+    break;
+
+    case 2:
+	       pf("\nYour choice is NON-AC room.....");
+	       getch();
+	       clrscr();
+	       pf("\033[33;44m");
+	       pf("\nIn NON-AC ROOMS");
+	       pf("\033[0m\n");
+	       pf("\n\nEnter A for famaly room\n");
+	       pf("Enter B for 2-person room\n");
+	       pf("\nEnter any character from This List : ");
+	       fflush(stdin);
+	       sf("%c",&e);
+     //5
+     switch(e)
+     {
+	       case 'a':
+	       case 'A':
+		    clrscr();
+		    pf("\n\nEnter 0 for ground floor room\n");
+		    pf("Enter 1 for 1st floor room\n");
+		    pf("Enter 2 for 2nd floor room\n");
+		    pf("Enter 3 for 3rd floor room\n");
+		    pf("Enter 4 for top floor room\n");
+		    pf("\nChoose the floor no. : ");
+		    sf("%d",&i);
+     //6
+      switch(i)
+      {
+	       case 0:
+		    clrscr();
+		    pf("\nYou have booked room at groud floor");
+		    pf("\nYour charges will be 2000\\-only ");
+		    break;
+	       case 1:
+		    clrscr();
+		    pf("\nYou have booked room at 1st floor");
+		    pf("\nYour charges will be 2300\\-only ");
+		    break;
+	       case 2:
+		    clrscr();
+		    pf("\nYou have booked room at 2nd floor");
+		    pf("\nYour charges will be 2700\\-only ");
+		    break;
+	       case 3:
+		    clrscr();
+		    pf("\nYou have booked room at 3rd floor");
+		    pf("\nYour charges will be 3200\\-only ");
+		    break;
+	       case 4:
+		    clrscr();
+		    pf("\nYou have booked room at top floor");
+		    pf("\nYour charges will be 3800\\-only ");
+		    break;
+	       default:
+		    clrscr();
+		    pf("your choice is invalid.....");
+      //6
+      }
+       break;
+
+	       case 'b':
+	       case 'B':
+		    clrscr();
+		    pf("\n\nEnter 0 for ground floor room\n");
+		    pf("Enter 1 for 1st floor room\n");
+		    pf("Enter 2 for 2nd floor room\n");
+		    pf("Enter 3 for 3rd floor room\n");
+		    pf("Enter 4 for top floor room\n");
+		    pf("\nChoose the floor no. : ");
+		    sf("%d",&h);
+       //7
+       switch(h)
+       {
+	       case 0:
+		    clrscr();
+		    pf("\nYou have booked room at groud floor");
+		    pf("\nYour charges will be 1500\\-only ");
+		    break;
+	       case 1:
+		    clrscr();
+		    pf("\nYou have booked room at 1st floor");
+		    pf("\nYour charges will be 1800\\-only ");
+		    break;
+	       case 2:
+		    clrscr();
+		    pf("\nYou have booked room at 2nd floor");
+		    pf("\nYour charges will be 2200\\-only ");
+		    break;
+	       case 3:
+		    clrscr();
+		    pf("\nYou have booked room at 3rd floor");
+		    pf("\nYour charges will be 2600\\-only ");
+		    break;
+	       case 4:
+		    clrscr();
+		    pf("\nYou have booked room at top floor");
+		    pf("\nYour charges will be 3000\\-only ");
+		    break;
+	       default:
+		    clrscr();
+		    pf("your choice is invalid.....");
+       //7
+       }
+	break;
+	   default:
+	   clrscr();
+	   pf("Invalid choice......");
+    //5
+    }
+
+ default:clrscr();
+	 pf("invalid choice......");
+ //1
+ }
+    clrscr();
+    if(a<=2)
+    pf("--------------------------------------------------------------------------------");
+    switch(a)
+    { case 1:
+	    pf("|\t\t\t\tAC ROOM\n\b|");
+	   break;
+     case 2:
+	    pf("\n\t\t\t\tNON-AC ROOM");
+    }
+    if(h<=4)
+    {pf("non ac 2 per :%d ",h);}
+
+    getch();
+
+
+
+}
+
