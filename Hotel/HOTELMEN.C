@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<conio.h>
 #define pf printf
@@ -26,9 +27,9 @@ switch(a)
 	       getch();
 	       clrscr();
 	       pf("\033[33;44m");
-	       pf("\n\nin AC room....");
+	       pf("\n\nIn AC room....");
 	       pf("\033[0m");
-	       pf("\nEnter A for famaly room\n");
+	       pf("\nEnter A for family room\n");
 	       pf("Enter B for couple room\n");
 	       pf("\nEnter any character from This List : ");
 	       fflush(stdin);
@@ -48,7 +49,7 @@ switch(a)
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
     //3
-    switch(d)
+/*    switch(d)
     {
 		  case 0:
 			     clrscr();
@@ -78,7 +79,7 @@ switch(a)
 		 default:
 			     pf("your choice is invalid.....");
     //3
-    }
+    } */
     break;
 
 		  case 'b':
@@ -92,7 +93,7 @@ switch(a)
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&g);
     //4
-    switch(g)
+  /*  switch(g)
     {
 		  case 0:
 			     clrscr();
@@ -122,7 +123,7 @@ switch(a)
 		 default:
 		 clrscr();
 			     pf("your choice is invalid.....");
-    }//4
+    }*///4
      break;
 		default:
 			     clrscr();
@@ -138,7 +139,7 @@ switch(a)
 	       pf("\033[33;44m");
 	       pf("\nIn NON-AC ROOMS");
 	       pf("\033[0m\n");
-	       pf("\n\nEnter A for famaly room\n");
+	       pf("\n\nEnter A for family room\n");
 	       pf("Enter B for couple room\n");
 	       pf("\nEnter any character from This List : ");
 	       fflush(stdin);
@@ -157,7 +158,7 @@ switch(a)
 		    pf("\nChoose the floor no. : ");
 		    sf("%d",&i);
      //6
-      switch(i)
+   /*   switch(i)
       {
 	       case 0:
 		    clrscr();
@@ -188,7 +189,7 @@ switch(a)
 		    clrscr();
 		    pf("your choice is invalid.....");
       //6
-      }
+      }   */
        break;
 
 	       case 'b':
@@ -202,7 +203,7 @@ switch(a)
 		    pf("\nChoose the floor no. : ");
 		    sf("%d",&h);
        //7
-       switch(h)
+   /*    switch(h)
        {
 	       case 0:
 		    clrscr();
@@ -233,7 +234,7 @@ switch(a)
 		    clrscr();
 		    pf("your choice is invalid.....");
        //7
-       }
+       }*/
 	break;
 	   default:
 	   clrscr();
@@ -250,18 +251,35 @@ switch(a)
  //Main
  {
 	    pf("--------------------------------------------------------------------------------");
-	    pf("|                                                                              |");
+	    pf("|\t\t\t\t\t\t\t\t\t       |");
+	    pf("|\t\t\t \033[31m\     **SHREE KRISHNA HOTEL**\t\t\t \033[0m\      |");
+	//for color	pf("\033[33;44myellow on blue");
+	    pf("|  Customer Name : KARM \t\t\t\t\t\t       |");
+	    pf("|  Customer Email: Karm1234@gmail.com\t\t\t\t\t       |");
 
+    switch(d)
+	 {
+	  case 0:
+		 pf("|  Room's normal cost : 2500\\- \t\t\t\t\t\t       |");
+
+
+
+
+
+
+
+
+
+	 }
     switch(a)
     //1
     { case 1:
-	    pf("|                                    AC ROOM                                   |");
 	    pf("|                                                                              |");
-
+	    pf("|  AC ROOM\t\t\t\t\t\t\t\t       |");
 	   break;
      case 2:
-	    pf("|                                  NON-AC ROOM                                 |");
 	    pf("|                                                                              |");
+	    pf("|  NON-AC ROOM                                                                 |");
      //1
      }
      switch(b)
@@ -269,11 +287,11 @@ switch(a)
       {
 	case 'a':
 	case 'A':
-	    pf("|  ROOM TYPE : FULL FAMELY ROOM                                                |");
+	    pf("|  ROOM TYPE : FULL FAMILY ROOM                                                |");
 	   break;
 	case 'b':
 	case 'B':
-	    pf("|  ROOM TYPE : COUPLE ROOM                                                     |");
+	    pf("|  ROOM TYPE : 2 PERSONS-ROOM                                                  |");
       //2
       }
 
@@ -281,23 +299,99 @@ switch(a)
       //3
       {
 	 case 0 :
-	    pf("|  FLOOR : GROUND FLOOR                                                        |");
+	    pf("|  FLOOR     : GROUND FLOOR                                                    |");
 	    break;
 	 case 1 :
-	    pf("|  FLOOR : FIRST FLOOR                                                         |");
+	    pf("|  FLOOR     : FIRST FLOOR                                                     |");
 	    break;
 	 case 2 :
-	    pf("|  FLOOR : SECOND FLOOR                                                        |");
+	    pf("|  FLOOR     : SECOND FLOOR                                                    |");
 	    break;
 	 case 3 :
-	    pf("|  FLOOR : THIRD FLOOR                                                         |");
+	    pf("|  FLOOR     : THIRD FLOOR                                                     |");
 	    break;
 	 case 4 :
-	    pf("|  FLOOR : TOP FLOOR                                                           |");
+	    pf("|  FLOOR     : TOP FLOOR                                                       |");
 	    break;
-
-      //3
+       //3
+       }
+     switch(g)
+      //4
+      {
+	 case 0 :
+	    pf("|  FLOOR     : GROUND FLOOR                                                    |");
+	    break;
+	 case 1 :
+	    pf("|  FLOOR     : FIRST FLOOR                                                     |");
+	    break;
+	 case 2 :
+	    pf("|  FLOOR     : SECOND FLOOR                                                     |");
+	    break;
+	 case 3 :
+	    pf("|  FLOOR     : THIRD FLOOR                                                      |");
+	    break;
+	 case 4 :
+	    pf("|  FLOOR     : TOP FLOOR                                                        |");
+	    break;
+       //4
+       }
+     switch(e)
+	//5
+	{
+	case 'a':
+	case 'A':
+	    pf("|  ROOM TYPE : FULL FAMELY ROOM                                                |");
+	   break;
+	case 'b':
+	case 'B':
+	    pf("|  ROOM TYPE : 2 PERSON-ROOM                                                   |");
+      //5
       }
+     switch(i)
+      //6
+      {
+	 case 0 :
+	    pf("|  FLOOR     : GROUND FLOOR                                                    |");
+	    break;
+	 case 1 :
+	    pf("|  FLOOR     : FIRST FLOOR                                                     |");
+	    break;
+	 case 2 :
+	    pf("|  FLOOR     : SECOND FLOOR                                                    |");
+	    break;
+	 case 3 :
+	    pf("|  FLOOR     : THIRD FLOOR                                                     |");
+	    break;
+	 case 4 :
+	    pf("|  FLOOR     : TOP FLOOR                                                       |");
+	    break;
+	 //6
+	 }
+     switch(h)
+      //7
+      {
+	 case 0 :
+	    pf("|  FLOOR     : GROUND FLOOR                                                    |");
+	    break;
+	 case 1 :
+	    pf("|  FLOOR     : FIRST FLOOR                                                     |");
+	    break;
+	 case 2 :
+	    pf("|  FLOOR     : SECOND FLOOR                                                    |");
+	    break;
+	 case 3 :
+	    pf("|  FLOOR     : THIRD FLOOR                                                     |");
+	    break;
+	 case 4 :
+	    pf("|  FLOOR     : TOP FLOOR                                                       |");
+	    break;
+       //7
+       }
+
+	     pf("|                                                                              |");
+	     pf("|                                                                              |");
+	     pf("--------------------------------------------------------------------------------");
+
 
 //Main
 }
