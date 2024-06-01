@@ -6,11 +6,17 @@
 
 main()
 {
-	int i,j;
+	int i,j,s,a;
 	clrscr();
 
-	for(i=1;i<=5;i++)
+	pf("Enter ending value : ");
+	sf("%d",&a);
+	for(i=1;i<=a;i++)
 	{
+	 for(s=a;s>i;s--)
+	 {
+	 pf(" ");
+	 }
 	 for(j=i;j>=1;j--)
 	 { pf("%d",j);
 	 }

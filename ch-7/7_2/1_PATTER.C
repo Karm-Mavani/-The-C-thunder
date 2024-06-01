@@ -6,12 +6,23 @@
 
 main()
 {
-	int a;
+	int a,i,j,s;
 	clrscr();
 
-	pf("Enter any no. : ");
+	pf("Enter last no. : ");
 	sf("%d",&a);
-
+	for(i=a;i>=5;i--)
+	{
+	 for(s=a;s>i;s--)
+	 {
+	 pf(" ");
+	 }
+	  for(j=1;j<=i;j++)
+	  {
+	  pf("%d",j);
+	  }
+	 pf("\n");
+	 }
 
 
 	getch();
