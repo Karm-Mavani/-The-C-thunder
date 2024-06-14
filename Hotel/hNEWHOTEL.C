@@ -31,7 +31,7 @@ switch(a)
 	       pf("\033[0m");
 	       pf("\nEnter A for family room\n");
 	       pf("Enter B for couple room\n");
-	       pf("Enter C for one person room\n");
+	       pf("Enter C for one person rppm\n");
 	       pf("\nEnter any character from This List : ");
 	       fflush(stdin);
 	       sf("%c",&b);
@@ -41,7 +41,7 @@ switch(a)
   switch(b)
   {
 		 case 'a':
-		 case 'A':
+		 case 'A'	:
 
 		       clrscr();
 		       pf("\n\nEnter 1 for premium room\n");
@@ -59,6 +59,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+2300;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -69,6 +70,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+2000;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -79,6 +81,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+1800;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -109,6 +112,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+2000;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -119,6 +123,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+1300;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -129,6 +134,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+1000;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -156,6 +162,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+1300;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -166,6 +173,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+1000;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -176,6 +184,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+800;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -229,6 +238,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+1500;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -239,6 +249,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+1250;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -249,6 +260,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+1000;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -278,6 +290,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+1400;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -288,6 +301,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+950;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -298,6 +312,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+700;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -328,6 +343,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+1000;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -338,6 +354,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+650;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -348,6 +365,7 @@ switch(c)
 		       pf("Enter 2 for 2nd floor room\n");
 		       pf("Enter 3 for 3rd floor room\n");
 		       pf("Enter 4 for top floor room\n");
+		       price=price+400;
 		       pf("\nChoose the floor no. : ");
 		       sf("%d",&d);
 		       break;
@@ -359,7 +377,7 @@ switch(c)
 
     break;
 
-
+		    break;
 
 	   default:
 	   clrscr();
@@ -381,8 +399,28 @@ switch(c)
 	//for color	pf("\033[33;44myellow on blue");
 	    pf("|  Customer Name : KARM \t\t\t\t\t\t       |");
 	    pf("|  Customer Email: Karm1234@gmail.com\t\t\t\t\t       |");
+	    pf("|                                                                              |");
 
+    switch(d)
+      {
+	case 0:
+	    pf("|  Room's normal cost : %d\\- \t\t\t\t\t\t       |",price);
+	    break;
+	case 1:
+	    pf("|  Room's normal cost : %d\\- \t\t\t\t\t\t       |",price+200);
+	    break;
+	case 2:
+	    pf("|  Room's normal cost : %d\\- \t\t\t\t\t\t       |",price+400);
+	    break;
+	case 3:
+	    pf("|  Room's normal cost : %d\\- \t\t\t\t\t\t       |",price+600);
+	    break;
+	case 4:
+	    pf("|  Room's normal cost : %d\\- \t\t\t\t\t\t       |",price+850);
+	    break;
+      }
 
+	    pf("|                                                                              |");
 
     switch(a)
     //1
@@ -404,31 +442,30 @@ switch(c)
 	    break;
 	case 'b':
 	case 'B':
-	    pf("|  ROOM TYPE : COUPLE PERSONS-ROOM                                             |");
+	    pf("|  ROOM TYPE : COUPLE-ROOM                                                     |");
 	    break;
 	case 'c':
 	case 'C':
-	       pf("|  ROOM TYPE : ONE PERSONS-ROOM                                             |");
+	    pf("|  ROOM TYPE : ONE PERSONS-ROOM                                                |");
 	    break;
       //2
       }
      switch(c)
-     //3
      {
       case 1:
-	       pf("|  ROOM QUALITY : PREMIUM                                                      |");
+	    pf("|  ROOM QUALITY : PREMIUM                                                      |");
 	       break;
       case 2:
-	       pf("|  ROOM QUALITY : MEDIUM                                                       |");
+	    pf("|  ROOM QUALITY : MEDIUM                                                       |");
 	       break;
       case 3:
-	       pf("|  ROOM QUALITY : CHEAP                                                        |");
+	    pf("|  ROOM QUALITY : CHEAP                                                        |");
 	       break;
 
      }
-    //4
+
      switch(d)
-      //5
+      //3
       {
 	 case 0 :
 	    pf("|  FLOOR     : GROUND FLOOR                                                    |");
@@ -445,13 +482,8 @@ switch(c)
 	 case 4 :
 	    pf("|  FLOOR     : TOP FLOOR                                                       |");
 	    break;
-
-      //6
-      }
-
-
-
-	     pf("|                                                                              |");
+       //3
+       }
 	     pf("|                                                                              |");
 	     pf("--------------------------------------------------------------------------------");
 
