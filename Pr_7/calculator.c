@@ -29,11 +29,9 @@ int per(int a, int b)
 void main()
 {
     int choice = 1, a = 1, b = 1;
-    for (int i = 0; (choice >= 0 && choice <= 9) && (a >= 0 && a <= 9) && (b >= 0 && b <= 9); i++)
+    for (int i = 0; choice != 0; i++)
     {
-    label:
-        if (choice == 0 || a == 0 || b == 0)
-            break;
+
         pf("\n\n");
         pf("Press 1 for +\n");
         pf("Press 2 for -\n");
@@ -43,25 +41,24 @@ void main()
         pf("Press 0 for exit\n");
         pf("\nEnter your choice : ");
         sf("%d", &choice);
-        
+
         if (choice == 0)
         {
-            goto label;
+            break;
         }
-        
+
         pf("Enter first no\t: ");
         sf("%d", &a);
 
         if (a == 0)
         {
-            goto label;
+            break;
         }
-
         pf("Enter second no\t: ");
         sf("%d", &b);
         if (a == 0)
         {
-            goto label;
+            break;
         }
         switch (choice)
         {
