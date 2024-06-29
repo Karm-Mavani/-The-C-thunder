@@ -1,6 +1,6 @@
 
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include <conio.h>
 #define pf printf
 #define sf scanf
 
