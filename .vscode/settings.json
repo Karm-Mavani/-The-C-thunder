@@ -1,6 +1,15 @@
 {
-    "C_Cpp.errorSquiggles": "enabledIfIncludesResolve",
+    "C_Cpp.errorSquiggles": "enabled",
     "files.associations": {
-        "stdio.h": "c"
-    }
+        "stdio.h": "c",
+        "GSALARY.C": "cpp",
+        "FIBONACA.C": "cpp",
+        "MAGIC.C": "cpp",
+        "REVERSE.C": "cpp",
+        "SUM.C": "cpp",
+        "1TO10.C": "cpp"
+    },
+    "C_Cpp.sshTargetsView": "enabled",
+    "notebook.experimental.generate": false,
+    "files.autoSaveWhenNoErrors": true
 }
