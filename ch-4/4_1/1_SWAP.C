@@ -8,7 +8,7 @@ main()
 {
 	int a,b,c;
 
-	clrscr();
+	
 
 	printf("Enter the value of A :");
 	sf("%d",&a);

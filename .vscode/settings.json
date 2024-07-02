@@ -7,7 +7,8 @@
         "MAGIC.C": "cpp",
         "REVERSE.C": "cpp",
         "SUM.C": "cpp",
-        "1TO10.C": "cpp"
+        "1TO10.C": "cpp",
+        "1_SWAP.C": "cpp"
     },
     "C_Cpp.sshTargetsView": "enabled",
     "notebook.experimental.generate": false,
