@@ -7,7 +7,7 @@
 main()
 {
 	int i,j,s,a;
-	clrscr();
+
 
 	pf("Enter ending value : ");
 	sf("%d",&a);

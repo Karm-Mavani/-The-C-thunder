@@ -4,8 +4,8 @@
 
 int cube(int size)
 {
-   size=size*size*size;
-   return size;
+    size = size * size * size;
+    return size;
 }
 
 void main()
@@ -21,14 +21,14 @@ void main()
         {
             pf("Enter a[%d][%d] : ", i, j);
             sf("%d", &array[i][j]);
-            
         }
     }
-for (int i = 0; i < n; i++)
+    
+    for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
         {
-            array[i][j]=cube(array[i][j]);
+            array[i][j] = cube(array[i][j]);
             ptr[i][j] = &array[i][j];
         }
     }
