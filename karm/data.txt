@@ -1,6 +1,0 @@
- name of the fruit : banana
- color of the fruit : yellow
-
- name of the fruit : apple
- color of the fruit : red
-
